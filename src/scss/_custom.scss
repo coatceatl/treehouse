@@ -1,1 +1,5 @@
+@function remy($value) {
+  @return ($value / 16px) *1rem;
+}
+
 @import '_header.scss';

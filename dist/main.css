@@ -1,5 +1,15 @@
 .header {
-  color: red; }
+  margin: 43px 0; }
+
+.nav-link {
+  color: #777;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400; }
+  .nav-link:hover {
+    color: #7cc576;
+    font-weight: 700; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)

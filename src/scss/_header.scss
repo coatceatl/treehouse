@@ -1,3 +1,15 @@
 .header {
-  color: red;
+  margin: 43px 0;
+}
+.nav-link {
+  color: #777;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: remy(14px);
+  font-weight: 400;
+
+  &:hover {
+    color: #7cc576;
+    font-weight: 700;
+  }
 }
