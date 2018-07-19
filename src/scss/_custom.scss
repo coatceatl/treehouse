@@ -2,4 +2,8 @@
   @return ($value / 16px) *1rem;
 }
 
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$body-color: #777 !important;
+$nav-link-hover: #7cc576 !important;
+
 @import '_header.scss';

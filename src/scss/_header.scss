@@ -1,15 +1,21 @@
 .header {
   margin: 43px 0;
 }
-.nav-link {
-  color: #777;
+a.nav-link {
+  color: $body-color;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $font-family-sans-serif;
   font-size: remy(14px);
   font-weight: 400;
+  line-height: remy(41px);
 
   &:hover {
-    color: #7cc576;
+    color: $nav-link-hover;
     font-weight: 700;
   }
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
