@@ -21,6 +21,11 @@ a.nav-link {
   height: 530px;
   background: url(img/bg-header.png) center center/cover no-repeat; }
 
+.title {
+  color: #fff;
+  font-size: 3.75rem;
+  font-weight: 700; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
