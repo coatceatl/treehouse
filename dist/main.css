@@ -17,6 +17,10 @@ a.nav-link {
   justify-content: space-between;
   width: 100%; }
 
+.hero {
+  height: 530px;
+  background: url(img/bg-header.png) center center/cover no-repeat; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
