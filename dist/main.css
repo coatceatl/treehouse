@@ -19,12 +19,48 @@ a.nav-link {
 
 .hero {
   height: 530px;
+  position: relative;
   background: url(img/bg-header.png) center center/cover no-repeat; }
+
+.cover {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+.hero-content {
+  z-index: 10; }
 
 .title {
   color: #fff;
   font-size: 3.75rem;
-  font-weight: 700; }
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  line-height: 4.0625rem; }
+
+.subtitle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #ccc;
+  letter-spacing: -0.5px;
+  margin: 41px 0; }
+
+.view {
+  background-color: #7cc576;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+  margin-top: 15px;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: -0.37px;
+  padding: 23px 36px 25px 36px !important;
+  border-radius: 2.25rem !important; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
