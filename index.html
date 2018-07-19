@@ -8,16 +8,36 @@
   </head>
   <body>
     <header class='header'>
-      <nav class='navbar navbar-expand-md'>
+      <nav class='navbar navbar-expand-md navbar-light bg-light'>
         <div class='container'>
           <a class='navbar-brand' href='#'>
             <img src='src/img/logo.png' alt='logo'>
           </a>
+          <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#mobile-open'>
+            <span class='navbar-toggler-icon'></span>
+          </button>
+          <div class='collapse navbar-collapse' id='mobile-open'>
+            <ul class='navbar-nav ml-auto'>
+              <li class='nav-item'>
+                <a href='#' class='nav-link cative'>Home</a>
+              </li>
+              <li class='nav-item'>
+                <a href='#' class='nav-link'>About</a>
+              </li>
+              <li class='nav-item'>
+                <a href='#' class='nav-link'>Blog</a>
+              </li>
+              <li class='nav-item'>
+                <a href='#' class='nav-link'>Portfolio</a>
+              </li>
+              <li class='nav-item'>
+                <a href='#' class='nav-link'>Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
-
-
-    <script src='dist/main.js'></script >
+  <script src='dist/main.js'></script >
   </body>
 </html>
