@@ -21,13 +21,17 @@
 .bg-photo {
   width: 70%;
   height: 100%;
-  background: url(../img/bg-relax.png) left top/cover no-repeat;
+  background: url(../img/bg-relax.jpg) left top/cover no-repeat;
+  position: relative;
 }
 .white {
   color: #fff;
 }
 .green {
   color: $nav-link-hover;
+}
+.relax-description {
+  margin: 45px 0 25px 0;
 }
 .relax-text {
   font-family: 'Roboto Slab', serif;
@@ -41,4 +45,6 @@
 }
 .relax-item {
   list-style: none;
+  position: relative;
+  margin-bottom: 25px;
 }
