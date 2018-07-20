@@ -43,6 +43,8 @@
   .button-full:hover {
     color: #222;
     background-color: #fff; }
+  .button-full:focus {
+    outline: none; }
 
 .title-section {
   font-family: "Montserrat", sans-serif;
@@ -195,7 +197,8 @@ a.nav-link {
       padding-right: 15px; } }
 
 .project-icon {
-  margin-right: 20px; }
+  margin-right: 20px;
+  margin-bottom: 20px; }
 
 .project-link {
   font-weight: 700;

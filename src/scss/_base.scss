@@ -47,6 +47,10 @@
     color: $title-color;
     background-color: #fff;
   }
+
+  &:focus {
+    outline: none;
+  }
 }
 .title-section {
   font-family: $font-family-sans-serif;
