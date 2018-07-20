@@ -194,6 +194,16 @@ a.nav-link {
 .project-icon {
   margin-right: 20px; }
 
+.project-link {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.4px;
+  text-decoration: none !important; }
+  .project-link i {
+    margin-left: 7px; }
+  .project-link:hover {
+    color: #222 !important; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
