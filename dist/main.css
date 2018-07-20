@@ -51,6 +51,9 @@ a.nav-link {
   color: #ccc;
   letter-spacing: -0.5px;
   margin: 41px 0; }
+  @media (max-width: 992px) {
+    .subtitle {
+      font-size: 1.125rem; } }
 
 .button-full {
   background-color: #7cc576;
@@ -127,7 +130,9 @@ a.nav-link {
   position: relative; }
   @media (max-width: 992px) {
     .bg-photo {
-      width: 100%; } }
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px; } }
 
 .white {
   color: #fff; }

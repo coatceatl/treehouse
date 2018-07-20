@@ -33,6 +33,10 @@
   color: #ccc;
   letter-spacing: -0.5px;
   margin: 41px 0;
+
+  @media (max-width: 992px) {
+    font-size: remy(18px);
+  }
 }
 .button-full {
   background-color: #7cc576;
