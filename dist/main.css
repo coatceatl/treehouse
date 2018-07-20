@@ -119,6 +119,25 @@ a.nav-link {
   height: 100%;
   background: url(img/bg-relax.png) left top/cover no-repeat; }
 
+.white {
+  color: #fff; }
+
+.green {
+  color: #7cc576 !important; }
+
+.relax-text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ccc;
+  letter-spacing: -0.4px; }
+
+.relax-list {
+  padding: 0; }
+
+.relax-item {
+  list-style: none; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

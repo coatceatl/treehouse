@@ -23,3 +23,22 @@
   height: 100%;
   background: url(../img/bg-relax.png) left top/cover no-repeat;
 }
+.white {
+  color: #fff;
+}
+.green {
+  color: $nav-link-hover;
+}
+.relax-text {
+  font-family: 'Roboto Slab', serif;
+  font-size: remy(16px);
+  font-weight: 400;
+  color: #ccc;
+  letter-spacing: -0.4px;
+}
+.relax-list {
+  padding: 0;
+}
+.relax-item {
+  list-style: none;
+}
