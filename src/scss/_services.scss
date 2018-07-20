@@ -1,3 +1,7 @@
+.container-padding {
+  padding-top: remy(100px);
+  padding-buttom: remy(100px);
+}
 .title-section {
   font-family: $font-family-sans-serif;
   font-size: remy(40px);
@@ -5,5 +9,26 @@
   text-transform: uppercase;
   letter-spacing: -2px;
   color: $title-color;
-  padding-top: remy(100px);
+}
+.subtitle-gray {
+  color: $body-color;
+}
+.services-block__icon {
+  margin-bottom: remy(40px);
+}
+.services-block__header {
+  font-family: $font-family-sans-serif;
+  font-size: remy(18px);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.45px;
+  color: $title-color;
+  margin-bottom: 18px;
+}
+.services-block__text {
+  font-family: 'Roboto Slab', serif;
+  font-size: remy(14px);
+  font-weight: 400;
+  color: $body-color;
+  letter-spacing: -0.35px;
 }

@@ -59,8 +59,12 @@ a.nav-link {
   font-weight: 700 !important;
   text-transform: uppercase;
   letter-spacing: -0.37px;
-  padding: 23px 36px 25px 36px !important;
+  padding: 20px 36px 22px 36px !important;
   border-radius: 2.25rem !important; }
+
+.container-padding {
+  padding-top: 6.25rem;
+  padding-buttom: 6.25rem; }
 
 .title-section {
   font-family: "Montserrat", sans-serif;
@@ -68,8 +72,29 @@ a.nav-link {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -2px;
+  color: #222; }
+
+.subtitle-gray {
+  color: #777 !important; }
+
+.services-block__icon {
+  margin-bottom: 2.5rem; }
+
+.services-block__header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.45px;
   color: #222;
-  padding-top: 6.25rem; }
+  margin-bottom: 18px; }
+
+.services-block__text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #777 !important;
+  letter-spacing: -0.35px; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
