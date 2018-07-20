@@ -40,6 +40,9 @@ a.nav-link {
   text-transform: uppercase;
   letter-spacing: -3px;
   line-height: 4.0625rem; }
+  @media (max-width: 992px) {
+    .title {
+      font-size: 3rem; } }
 
 .subtitle {
   font-family: 'Roboto Slab', serif;
@@ -113,12 +116,18 @@ a.nav-link {
     top: 0;
     right: 0;
     background: url(img/gear-2.png) left center no-repeat; }
+  @media (max-width: 992px) {
+    .bg-icon {
+      display: none; } }
 
 .bg-photo {
   width: 70%;
   height: 100%;
   background: url(img/bg-relax.jpg) left top/cover no-repeat;
   position: relative; }
+  @media (max-width: 992px) {
+    .bg-photo {
+      width: 100%; } }
 
 .white {
   color: #fff; }
@@ -143,6 +152,9 @@ a.nav-link {
   list-style: none;
   position: relative;
   margin-bottom: 25px; }
+
+.project {
+  background: url(img/ipad.png) center right no-repeat; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)

@@ -21,6 +21,10 @@
   text-transform: uppercase;
   letter-spacing: -3px;
   line-height: remy(65px);
+
+  @media (max-width: 992px) {
+    font-size: remy(48px);
+  }
 }
 .subtitle {
   font-family: 'Roboto Slab', serif;
