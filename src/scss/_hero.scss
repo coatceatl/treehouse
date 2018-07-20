@@ -14,40 +14,4 @@
 .hero-content {
   z-index: 10;
 }
-.title {
-  color: #fff;
-  font-size: remy(60px);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -3px;
-  line-height: remy(65px);
 
-  @media (max-width: 992px) {
-    font-size: remy(48px);
-  }
-}
-.subtitle {
-  font-family: 'Roboto Slab', serif;
-  font-size: remy(20px);
-  font-weight: 400;
-  color: #ccc;
-  letter-spacing: -0.5px;
-  margin: 41px 0;
-
-  @media (max-width: 992px) {
-    font-size: remy(18px);
-  }
-}
-.button-full {
-  background-color: #7cc576;
-  color: #fff;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
-  margin-top: 15px;
-  font-family: Montserrat;
-  font-size: remy(16px);
-  font-weight: 700 !important;
-  text-transform: uppercase;
-  letter-spacing: -0.37px;
-  padding: 20px 36px 22px 36px !important;
-  border-radius: remy(36px) !important;
-}

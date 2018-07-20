@@ -7,6 +7,7 @@ $body-color: #777 !important;
 $nav-link-hover: #7cc576 !important;
 $title-color: #222;
 
+@import '_base.scss';
 @import '_header.scss';
 @import '_hero.scss';
 @import '_services.scss';

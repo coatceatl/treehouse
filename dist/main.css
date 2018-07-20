@@ -1,3 +1,82 @@
+.container-padding {
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem; }
+
+.title {
+  color: #fff;
+  font-size: 3.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  line-height: 4.0625rem; }
+  @media (max-width: 992px) {
+    .title {
+      font-size: 3rem; } }
+
+.subtitle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #ccc;
+  letter-spacing: -0.5px;
+  margin: 41px 0; }
+  @media (max-width: 992px) {
+    .subtitle {
+      font-size: 1.125rem; } }
+
+.subtitle-section {
+  margin-top: 11px;
+  margin-bottom: 86px; }
+
+.button-full {
+  background-color: #7cc576;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+  margin-top: 15px;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: -0.37px;
+  padding: 20px 36px 22px 36px !important;
+  border-radius: 2.25rem !important; }
+
+.title-section {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  color: #222; }
+  @media (max-width: 992px) {
+    .title-section {
+      font-size: 2rem; } }
+
+.white {
+  color: #fff; }
+
+.green {
+  color: #7cc576 !important; }
+
+.block-icon {
+  margin-bottom: 2.5rem; }
+
+.block-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.45px;
+  color: #222;
+  margin-bottom: 18px; }
+
+.block-text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #777 !important;
+  letter-spacing: -0.35px; }
+
 .header {
   margin: 43px 0; }
 
@@ -33,74 +112,8 @@ a.nav-link {
 .hero-content {
   z-index: 10; }
 
-.title {
-  color: #fff;
-  font-size: 3.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -3px;
-  line-height: 4.0625rem; }
-  @media (max-width: 992px) {
-    .title {
-      font-size: 3rem; } }
-
-.subtitle {
-  font-family: 'Roboto Slab', serif;
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: #ccc;
-  letter-spacing: -0.5px;
-  margin: 41px 0; }
-  @media (max-width: 992px) {
-    .subtitle {
-      font-size: 1.125rem; } }
-
-.button-full {
-  background-color: #7cc576;
-  color: #fff;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
-  margin-top: 15px;
-  font-family: Montserrat;
-  font-size: 1rem;
-  font-weight: 700 !important;
-  text-transform: uppercase;
-  letter-spacing: -0.37px;
-  padding: 20px 36px 22px 36px !important;
-  border-radius: 2.25rem !important; }
-
-.container-padding {
-  padding-top: 6.25rem;
-  padding-bottom: 6.25rem; }
-
-.title-section {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -2px;
-  color: #222; }
-
 .subtitle-gray {
   color: #777 !important; }
-
-.services-block__icon {
-  margin-bottom: 2.5rem; }
-
-.services-block__header {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.125rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -0.45px;
-  color: #222;
-  margin-bottom: 18px; }
-
-.services-block__text {
-  font-family: 'Roboto Slab', serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  color: #777 !important;
-  letter-spacing: -0.35px; }
 
 .relax {
   height: 615px; }
@@ -134,12 +147,6 @@ a.nav-link {
       padding-left: 15px;
       padding-right: 15px; } }
 
-.white {
-  color: #fff; }
-
-.green {
-  color: #7cc576 !important; }
-
 .relax-description {
   margin: 45px 0 25px 0; }
 
@@ -158,8 +165,21 @@ a.nav-link {
   position: relative;
   margin-bottom: 25px; }
 
+/*
 .project {
-  background: url(img/ipad.png) center right no-repeat; }
+  background: url(../img/ipad.png) 150% 110% no-repeat;
+}
+*/
+.ipad {
+  position: relative; }
+  .ipad img {
+    position: absolute;
+    left: 35%;
+    bottom: -30%; }
+
+.project-text {
+  margin-top: 10px;
+  margin-bottom: 28px; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
