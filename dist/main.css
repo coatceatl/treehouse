@@ -40,6 +40,9 @@
   letter-spacing: -0.37px;
   padding: 20px 36px 22px 36px !important;
   border-radius: 2.25rem !important; }
+  .button-full:hover {
+    color: #222;
+    background-color: #fff; }
 
 .title-section {
   font-family: "Montserrat", sans-serif;

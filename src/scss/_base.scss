@@ -42,6 +42,11 @@
   letter-spacing: -0.37px;
   padding: 20px 36px 22px 36px !important;
   border-radius: remy(36px) !important;
+
+  &:hover {
+    color: $title-color;
+    background-color: #fff;
+  }
 }
 .title-section {
   font-family: $font-family-sans-serif;
