@@ -230,15 +230,22 @@ a.nav-link {
   font-family: 'Roboto Slab', serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #ececec; }
+  color: #ececec;
+  margin-bottom: 15px;
+  /*
+  img {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  */ }
   .contact-item a {
     color: #ececec; }
     .contact-item a:hover {
       text-decoration: none;
       color: #7cc576 !important; }
-  .contact-item img {
-    margin-right: 15px;
-    margin-bottom: 15px; }
+
+.contact-icon {
+  margin-right: 15px; }
 
 a .twitter-link:hover {
   font-weight: 700;
