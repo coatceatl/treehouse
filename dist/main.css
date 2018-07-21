@@ -225,13 +225,14 @@ a.nav-link {
   font-weight: 700 !important;
   text-transform: uppercase;
   letter-spacing: -0.45px;
-  padding: 17px 29px; }
-  .button-outline:focus {
-    outline: none; }
+  padding: 17px 29px;
+  margin-top: 23px; }
   .button-outline:hover {
     color: #7cc576 !important;
     background-color: #fff !important;
     border: 3px solid #fff; }
+  .button-outline:focus {
+    outline: none; }
 
 .logos {
   margin-top: 30px;
@@ -242,7 +243,8 @@ a.nav-link {
 
 .contact {
   background-color: #222;
-  padding: 60px 0; }
+  padding-top: 30px;
+  padding-bottom: 60px; }
 
 .contact-header {
   color: #fff;
@@ -250,7 +252,8 @@ a.nav-link {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -0.45px;
-  margin-bottom: 28px; }
+  margin-bottom: 28px;
+  margin-top: 30px; }
 
 .contact-item {
   list-style: none;

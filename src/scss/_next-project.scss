@@ -12,14 +12,16 @@
   text-transform: uppercase;
   letter-spacing: -0.45px;
   padding: 17px 29px;
-
-  &:focus {
-    outline: none;
-  }
+  margin-top: 23px;
 
   &:hover {
     color: $nav-link-hover;
     background-color: #fff !important;
     border: 3px solid #fff;
   }
+
+  &:focus {
+    outline: none;
+  }
+
 }
