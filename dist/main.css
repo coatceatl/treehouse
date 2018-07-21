@@ -254,7 +254,14 @@ a .twitter-link:hover {
   letter-spacing: -0.35px; }
 
 .social-item {
-  list-style: none; }
+  list-style: none;
+  width: 41px;
+  height: 42px;
+  background-color: #222222;
+  border-radius: 50%; }
+
+.twitter:hover {
+  background-color: #00aced; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
