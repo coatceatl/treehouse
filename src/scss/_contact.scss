@@ -29,19 +29,18 @@
       color: $nav-link-hover;
     }
   }
-/*
-  img {
-    margin-right: 15px;
-    margin-bottom: 15px;
-  }
-  */
 }
 .contact-icon {
   margin-right: 15px;
+  width: 26px;
+  height: 21px;
 }
 a .twitter-link {
   &:hover {
     font-weight: 700;
     color: #ececec;
   }
+}
+.twit {
+  margin-bottom: 0;
 }
