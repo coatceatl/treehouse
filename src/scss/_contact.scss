@@ -1,0 +1,42 @@
+.contact {
+  background-color: $title-color;
+  padding: 60px 0;
+}
+.contact-header {
+  color: #fff;
+  font-size: remy(18px);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.45px;
+  margin-bottom: 28px;
+}
+.contact-list {
+  padding: 0;
+}
+.contact-item {
+  list-style: none;
+  font-family: 'Roboto Slab', serif;
+  font-size: remy(16px);
+  font-weight: 400;
+  color: #ececec;
+
+  a {
+    color: #ececec;
+
+    &:hover {
+      text-decoration: none;
+      color: $nav-link-hover;
+    }
+  }
+
+  img {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+}
+a .twitter-link {
+  &:hover {
+    font-weight: 700;
+    color: #ececec;
+  }
+}

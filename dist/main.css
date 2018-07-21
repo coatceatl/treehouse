@@ -33,7 +33,7 @@
   color: #fff;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
   margin-top: 15px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 700 !important;
   text-transform: uppercase;
@@ -209,6 +209,40 @@ a.nav-link {
     margin-left: 7px; }
   .project-link:hover {
     color: #222 !important; }
+
+.contact {
+  background-color: #222;
+  padding: 60px 0; }
+
+.contact-header {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.45px;
+  margin-bottom: 28px; }
+
+.contact-list {
+  padding: 0; }
+
+.contact-item {
+  list-style: none;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ececec; }
+  .contact-item a {
+    color: #ececec; }
+    .contact-item a:hover {
+      text-decoration: none;
+      color: #7cc576 !important; }
+  .contact-item img {
+    margin-right: 15px;
+    margin-bottom: 15px; }
+
+a .twitter-link:hover {
+  font-weight: 700;
+  color: #ececec; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
