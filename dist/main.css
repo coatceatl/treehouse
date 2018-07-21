@@ -208,6 +208,13 @@ a.nav-link {
   .project-link:hover {
     color: #222 !important; }
 
+.logos {
+  margin-top: 30px;
+  margin-bottom: 60px; }
+
+.logo-item {
+  padding-top: 30px; }
+
 .contact {
   background-color: #222;
   padding: 60px 0; }
