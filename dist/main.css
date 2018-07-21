@@ -82,6 +82,9 @@
   color: #777 !important;
   letter-spacing: -0.35px; }
 
+ul {
+  padding: 0; }
+
 .header {
   margin: 43px 0; }
 
@@ -170,11 +173,6 @@ a.nav-link {
   position: relative;
   margin-bottom: 25px; }
 
-/*
-.project {
-  background: url(../img/ipad.png) 150% 110% no-repeat;
-}
-*/
 .ipad {
   position: relative; }
   .ipad img {
@@ -190,10 +188,10 @@ a.nav-link {
   margin-bottom: 28px; }
 
 .project-block {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding-left: 15px; }
   @media (max-width: 992px) {
     .project-block {
-      padding-left: 15px;
       padding-right: 15px; } }
 
 .project-icon {
@@ -222,9 +220,6 @@ a.nav-link {
   letter-spacing: -0.45px;
   margin-bottom: 28px; }
 
-.contact-list {
-  padding: 0; }
-
 .contact-item {
   list-style: none;
   font-family: 'Roboto Slab', serif;
@@ -249,6 +244,17 @@ a .twitter-link:hover {
 
 .twit {
   margin-bottom: 0; }
+
+.footer {
+  margin-top: 27px;
+  margin-bottom: 31px; }
+
+.footer-text {
+  color: #555;
+  letter-spacing: -0.35px; }
+
+.social-item {
+  list-style: none; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
