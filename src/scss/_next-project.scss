@@ -1,3 +1,25 @@
 .next-project {
   background-color: $nav-link-hover;
+  padding-top: 69px;
+  padding-bottom: 72px;
+}
+.button-outline {
+  border: 3px solid #fff !important;
+  background-color: $nav-link-hover;
+  color: #fff;
+  font-size: remy(18px);
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: -0.45px;
+  padding: 17px 29px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    color: $nav-link-hover;
+    background-color: #fff !important;
+    border: 3px solid #fff;
+  }
 }

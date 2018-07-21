@@ -213,7 +213,25 @@ a.nav-link {
     color: #222 !important; }
 
 .next-project {
-  background-color: #7cc576 !important; }
+  background-color: #7cc576 !important;
+  padding-top: 69px;
+  padding-bottom: 72px; }
+
+.button-outline {
+  border: 3px solid #fff !important;
+  background-color: #7cc576 !important;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: -0.45px;
+  padding: 17px 29px; }
+  .button-outline:focus {
+    outline: none; }
+  .button-outline:hover {
+    color: #7cc576 !important;
+    background-color: #fff !important;
+    border: 3px solid #fff; }
 
 .logos {
   margin-top: 30px;
