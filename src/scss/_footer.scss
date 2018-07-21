@@ -2,9 +2,18 @@
   margin-top: 27px;
   margin-bottom: 31px;
 }
+.footer-row {
+  @media(max-width: 576px) {
+    flex-direction: column-reverse;
+  }
+}
 .footer-text {
   color: #555;
   letter-spacing: -0.35px;
+
+  @media (max-width: 576px) {
+    text-align: center;
+  }
 }
 .social-item {
   list-style: none;
@@ -16,5 +25,20 @@
 .twitter {
   &:hover {
     background-color: #00aced;
+  }
+}
+.fb {
+  &:hover {
+    background-color: #3b5998;
+  }
+}
+.pinterest {
+  &:hover {
+    background-color: #cb2028;
+  }
+}
+.google {
+  &:hover {
+    background-color: #da2713;
   }
 }

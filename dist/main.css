@@ -249,9 +249,16 @@ a .twitter-link:hover {
   margin-top: 27px;
   margin-bottom: 31px; }
 
+@media (max-width: 576px) {
+  .footer-row {
+    flex-direction: column-reverse; } }
+
 .footer-text {
   color: #555;
   letter-spacing: -0.35px; }
+  @media (max-width: 576px) {
+    .footer-text {
+      text-align: center; } }
 
 .social-item {
   list-style: none;
@@ -262,6 +269,15 @@ a .twitter-link:hover {
 
 .twitter:hover {
   background-color: #00aced; }
+
+.fb:hover {
+  background-color: #3b5998; }
+
+.pinterest:hover {
+  background-color: #cb2028; }
+
+.google:hover {
+  background-color: #da2713; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
